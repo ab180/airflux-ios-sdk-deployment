@@ -18,12 +18,14 @@ let package = Package(
             name: "_Airflux",
             dependencies: ["Airflux"],
             path: "Source",
-            linkerSettings: []
+            linkerSettings: [
+                .linkedFramework("CoreTelephony"),
+            ]
         ),
         .binaryTarget(
             name: "Airflux",
-            url: "https://sdk-download.airflux.ai/airflux-ios-sdk/1.0.0/Airflux.zip",
-            checksum: "2908eb0a3460ce8ec092c7e741c8db0ce84f8ae3bc13f133465b70f0a7a12e28"
+            url: "https://sdk-download.airflux.ai/airflux-ios-sdk/1.0.1/Airflux.zip",
+            checksum: "2b49374d6ba3b9233144d80b46b1d96d800f0b66a79c58aeaf002eb7117ac307"
         ),
     ]
 )
