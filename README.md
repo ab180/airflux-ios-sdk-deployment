@@ -8,4 +8,4 @@ Airflux SDK for iOS
 
 ## Reference
 
-- https://reference.airflux.io/airflux-ios-sdk/1.0.1/
+- https://reference.airflux.ai/airflux-ios-sdk/1.0.2/

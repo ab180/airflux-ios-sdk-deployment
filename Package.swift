@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Airflux",
-            url: "https://sdk-download.airflux.ai/airflux-ios-sdk/1.0.1/Airflux.zip",
-            checksum: "2b49374d6ba3b9233144d80b46b1d96d800f0b66a79c58aeaf002eb7117ac307"
+            url: "https://sdk-download.airflux.ai/airflux-ios-sdk/1.0.2/Airflux.zip",
+            checksum: "16fe2c577674683b4bd7b3ec44effa33bbcebd1c8551bcf9622b77b48ba090b7"
         ),
     ]
 )
